@@ -23,8 +23,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-blog-preview-card)
-- Live Site URL: [Vercel](https://frontend-mentor-newbie-blog-preview-card.vercel.app/)
+- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-social-links-profile)
+- Live Site URL: [Vercel](https://frontend-mentor-newbie-social-links-profile.vercel.app/)
 
 ## My process
 
@@ -35,22 +35,19 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Shadow-box
-- Object-fit
+- Responsive CSS style
 
 ### What I learned
 
-I learned how to design flex box, object-fit, box-shadow and other css properties. Flex box can also be applied for position alignments such as aligning element at center. Object-fit can be use to place the image at specific crop size with out changing its shape. There are some CSS properties that I have to search more and adjust to match with figma design such as drop shadow and border radious.
+I learned how to design flex box and responsive design from this project.
 
 ### Continued development
 
-Learning categories could be link to other address.
+It could add hyperlink to other platform.
 
 ### Useful resources
 
-- [CSS box-shadow Property by W3 school](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) - This help me understand the concept of box-shadow which is usefule to apply with shadow effect of the element in this project.
-
-- [CSS box-shadow Property by W3 school](https://www.w3schools.com/css/css3_object-fit.asp) - This help me solve method to fit image into specific area with out adjusting the original shape.
+- [CSS Responsive Web Design by W3 school](https://www.w3schools.com/css/css_rwd_intro.asp) - This is good introduction guidance for anyone who want to start practicing responsive design.
 
 ## Author
 

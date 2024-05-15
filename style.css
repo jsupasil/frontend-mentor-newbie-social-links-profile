@@ -1,0 +1,76 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+main {
+  height: 100vh;
+  background-color: var(--off-black);
+}
+
+.card {
+  width: 384px;
+  height: 611px;
+  background-color: var(--dark-grey);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-pic {
+  width: 88px;
+  height: 88px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--White);
+}
+
+.description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--green);
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--White);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link-item {
+  height: 45px;
+  border-radius: 8px;
+  background-color: var(--grey);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--White);
+}

@@ -76,6 +76,7 @@ main {
   gap: 16px;
   width: 304px;
   height: 289px;
+  list-style-type: none;
 }
 
 .link-item {
@@ -88,6 +89,7 @@ main {
   font-size: 14px;
   line-height: 21px;
   color: var(--White);
+  padding: 12px;
 }
 
 .link-item:active {

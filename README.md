@@ -49,6 +49,8 @@ It could add hyperlink to other platform.
 
 - [CSS Responsive Web Design by W3 school](https://www.w3schools.com/css/css_rwd_intro.asp) - This is good introduction guidance for anyone who want to start practicing responsive design.
 
+- [CSS Variables by W3 school](https://www.w3schools.com/css/css3_variables.asp) - This is not necessary to complete a project but it is greatly helpful to shorten working time. This tool is CSS variable which will collect CSS value to varable which can be name short or easier reading. If some values were repetitive and hard to read such as hex code, CSS variable might be an answer.
+
 ## Author
 
 - Website - [Jirayu Supasil](https://github.com/jsupasil)

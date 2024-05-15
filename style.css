@@ -8,17 +8,22 @@
 
 @font-face {
   font-family: Inter;
-  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 * {
   padding: 0px;
   margin: 0px;
   text-align: center;
+  font-family: Inter;
+  box-sizing: border-box;
 }
 
 main {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--off-black);
 }
 
@@ -31,14 +36,17 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  border-radius: 12px;
 }
 
 .profile-pic {
   width: 88px;
   height: 88px;
+  border-radius: 100%;
 }
 
 .title {
+  height: 36px;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -46,6 +54,8 @@ main {
 }
 
 .description {
+  margin-top: 4px;
+  height: 21px;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -53,6 +63,7 @@ main {
 }
 
 .bio {
+  height: 21px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -63,14 +74,44 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 304px;
+  height: 289px;
 }
 
 .link-item {
+  width: 100%;
   height: 45px;
+  border: none;
   border-radius: 8px;
   background-color: var(--grey);
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   color: var(--White);
+}
+
+.link-item:active {
+  background-color: var(--green);
+  color: var(--grey);
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 327px;
+    height: 579px;
+    padding: 24px;
+  }
+  .links {
+    width: 279px;
+  }
+}
+
+.attribution {
+  background-color: var(--grey);
+  color: var(--White);
+}
+
+.attribution a {
+  color: var(--green);
+  text-decoration: none;
 }
